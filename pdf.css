@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+    text-transform: capitalize;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    /* background-color: aqua; */
+    /* margin: 0 auto; */
+}
+.sale , .bill{
+    width:1024px;  
+    /* height: 300px; */
+    /* background-color: pink; */
+   
+  text-transform: capitalize;
+  font-family: sans-serif;
+
+   
+}
+.scon{
+    float: left;
+    width: 300px;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.sale .s1{
+   /* background-color: rgb(29, 58, 58); */
+}
+.sale .s2{
+   margin-left: 100px; 
+   /* background-color: brown; */
+   text-align: center;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+   
+
+}
+h6{
+    font-size: 3rem;
+    font-weight: 100;
+}
+ 
+h1{
+    font-size: 20px;
+}
+h2{
+    font-size: 40px;
+}
+ p{
+    line-height: .8;
+    /* margin:  .5rem 0; */
+}
+.bill{
+    margin-top: 2rem;
+}
+.bill .e-no{
+    /* background-color: blue; */
+    text-transform: capitalize;
+    margin-left: 100px;
+
+}
+.bill .e-no table{
+    width: 15rem;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.bill .e-no table th{
+    width: 70%;
+    text-align: left;
+    text-transform: capitalize;
+
+  
+
+}
+.bill .e-no table td{
+    text-align: left;
+    text-transform: capitalize;
+
+}
+.bill .e-no table th,td{
+    height: 50px;
+}
+.table{
+    width: 900px;
+    margin-top: 5rem;
+    border: none;
+    border-collapse: collapse;
+}
+.table th{
+    border: 0cap;
+    padding: 1.5rem .4rem;
+    text-align: left;
+    background-color: rgb(80, 78, 78);
+    color: white;
+    border-collapse: collapse;
+    text-transform: capitalize;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:1.2rem;
+}
+.table td{
+    height:5rem;
+    text-transform: capitalize;
+    font-size:1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+/* .border{
+    border: none;
+    border-bottom: 1px solid red;
+} */
+.table tr td:nth-child(n + 2){
+    text-align: center;
+}
+.table tr:nth-child(2),
+.table tr:nth-child(3)
+{
+    border:1px solid rgba(226, 223, 223, 0.315);
+border-bottom: 1px solid rgba(136, 135, 135, 0.747);
+
+}
+.foot p:nth-child(1){
+color: rgb(68, 66, 66);
+font-weight: bold;
+text-transform: capitalize;
+}
+.foot{
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+.notes {
+    margin: 1rem 0 6rem 0;
+}
